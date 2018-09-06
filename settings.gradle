@@ -1,0 +1,5 @@
+rootProject.name = 'hello-springcloud'
+include 'project-register'
+include 'project-mall'
+include 'project-search'
+

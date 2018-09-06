@@ -1,0 +1,5 @@
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-thymeleaf"
+    //注册中心客户端的组件
+    compile "org.springframework.cloud:spring-cloud-starter-eureka"
+}
