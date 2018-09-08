@@ -3,6 +3,11 @@ server:
 spring:
   application:
     name: project-search
+  zipkin:
+    base-url: http://localhost:9999
+  sleuth:
+    sampler:
+      percentage: 1.0    #0.1--1.0  链路跟踪的数据上传的概率是多大
 eureka:
   client:
     service-url:

@@ -1,4 +1,10 @@
 dependencies {
     //注册中心客户端的组件
     compile "org.springframework.cloud:spring-cloud-starter-eureka"
+
+    //链路跟踪组件
+    compile "org.springframework.cloud:spring-cloud-starter-sleuth"
+
+    //分布式链路跟踪-收集分析组件
+    compile "org.springframework.cloud:spring-cloud-sleuth-zipkin"
 }
