@@ -7,4 +7,10 @@ dependencies {
 
     //分布式链路跟踪-收集分析组件
     compile "org.springframework.cloud:spring-cloud-sleuth-zipkin"
+
+    compile "org.springframework.boot:spring-boot-starter-data-redis"
+
+    //spring-boot安全组件
+//    compile 'org.springframework.boot:spring-boot-starter-security'
+
 }

@@ -7,4 +7,7 @@ dependencies {
 
     //分布式链路跟踪-收集分析组件
     compile "org.springframework.cloud:spring-cloud-sleuth-zipkin"
+
+    //hystrix:熔断器
+    compile "org.springframework.cloud:spring-cloud-starter-hystrix"
 }

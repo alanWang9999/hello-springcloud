@@ -14,3 +14,10 @@ eureka:
       defaultZone: http://localhost:8000/eureka/
   instance:
     prefer-ip-address: true
+#security:
+#  basic:
+#    enabled: true
+#  user:
+#    name: user
+#    password: 123
+

@@ -20,6 +20,11 @@ public class SearchController
     @GetMapping("/testSearch")
     public String testSearch()
     {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         logger.info("执行查询");
 
         return "测试!!!!!!!";
