@@ -10,4 +10,7 @@ dependencies {
 
     //hystrix:熔断器
     compile "org.springframework.cloud:spring-cloud-starter-hystrix"
+
+    compile "org.springframework.security:spring-security-web"
+    compile "org.springframework.security:spring-security-config"
 }

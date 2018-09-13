@@ -7,7 +7,9 @@ spring:
     base-url: http://localhost:9999
   sleuth:
     sampler:
-      percentage: 1.0    #0.1--1.0  链路跟踪的数据上传的概率是多大
+      percentage: 1.0   #0.1--1.0  链路跟踪的数据上传的概率是多大
+  thymeleaf:
+    cache: false
 eureka:
   client:
     service-url:

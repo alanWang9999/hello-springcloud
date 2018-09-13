@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.security.PermitAll;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -17,6 +18,7 @@ import javax.servlet.http.HttpSession;
  * @Description TODO
  */
 @RestController
+
 public class MallController
 {
     public static Logger logger = LoggerFactory.getLogger(MallController.class);
@@ -24,6 +26,7 @@ public class MallController
 
     @Autowired
     private RestTemplate restTemplate;
+
 
     @HystrixCommand(fallbackMethod = "backMethod")
     @GetMapping("/search")
